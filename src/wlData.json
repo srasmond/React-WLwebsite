@@ -1,0 +1,150 @@
+{
+    "name": "Willem Lorein Klusjesdienst",
+    "description": "",
+    "rev": "1",
+    "app_version": "0.0.1",
+    "languages": [
+        "nl"
+    ],
+    "permissions": "",
+    "menu_items": {
+        "item1": {
+            "name": "Welkom",
+            "content": {
+                "body": "",
+                "images": ""
+            }
+        },
+        "item2": {
+            "name": "Over",
+            "content": {
+                "body": "",
+                "images": ""
+            }
+        },
+        "item3": {
+            "name": "Projecten",
+            "sub_items": {
+                "sub_item1": {
+                    "id": "projectDefault",
+                    "content": {
+                        "body": "<p>Gelieve een keuze te maken in de kolom hiernaast.</p>",
+                        "images": ""
+                    }
+                },
+                "sub_item2": {
+                    "id": "project1",
+                    "name": "Onderhoud en reinigen",
+                    "content": {
+                        "body": "<p>Gelieve een keuze te maken in de kolom hiernaast.</p>",
+                        "images": ""
+                    },
+                    "sub_sub_items": {
+                        "sub_sub_item1": {
+                            "id": "project1a",
+                            "name": "Tuin",
+                            "content": {
+                                "body": "<p>Indien u graag uw gras wenst te laten afrijden, bent u hier aan het juiste adres. Wij nemen steeds het afval mee zodat u zich daar geen zorgen over hoeft te maken. Voor het maaien van gras kan er ook met contracten gewerkt worden zoals wekelijks of maandelijks. Daarnaast snoeien wij ook hagen waarbij het snoeisel wordt meegenomen. Bomen snoeien of takken afzagen is ook geen enkel probleem. We zijn uitgerust met speciaal materiaal om elke tuin onder handen te nemen.</p><p>Bent u in het bezit van een groot stuk grond of wei en dient deze eens kort gezet te worden, ook daarvoor kan u van onze diensten gebruik maken.</p>",
+                                "images": ""
+                            }
+                        },
+                        "sub_sub_item2": {
+                            "id": "project1b",
+                            "name": "Gebouwen",
+                            "content": {
+                                "body": "<p>Tijdens de herfst vallen de bladeren van de bomen. Het moment waarop de dakgoten verstopt geraken en het water een andere weg gaat zoeken… met alle gevolgen van dien. Voorkom dit door ons tijdig te contacteren en wij reinigen de dakgoten voor u.</p><p>Daarnaast kunnen gevels en terrassen ook gereinigd worden met onze speciale hogedrukreiniger die gebruik maakt van warm water en stoom. Met koud water verwijder je enkel de groene aanslag maar de kiem is niet dood en groeit dus verder. De groene aanslag is binnen de kortste keren terug. </p><p>Het grote voordeel van warm water en stoom is dat u tot diep in de poriën doordringt en de kiem dood waardoor u langer het schone resultaat behoud!</p>",
+                                "images": ""
+                            }
+                        }
+                    }
+                },
+                "sub_item3": {
+                    "id": "project2",
+                    "name": "Afbraakwerken",
+                    "content": {
+                        "body": "<p>Voor kleine en middelgrote afbraakwerken kunt u onze diensten gebruiken. Dit zijn vaak veelzijdige werken en niets is ons te veel. Wenst u graag een tuinhuis of een muur af te breken dan zorgen wij hiervoor. Wij breken alles uit en nemen het afval terug met ons mee.</p>",
+                        "images": ""
+                    }
+                },
+                "sub_item4": {
+                    "id": "project3",
+                    "name": "Sanitaire klussen",
+                    "content": {
+                        "body": "<p>Voor kleine sanitaire klussen is het vaak moeilijk om een vakman te bereiken of bedragen de wachttijden weken of zelfs maanden. <br /> Willem Lorein Klusjesdienst is hiervoor de ideale oplossing.</p><p>Wij bieden verschillende mogelijkheden aan:</p><ul><li>Vervangen keukenkraan/ badkraan/ douchekraan, ...</li><li>Vervangen van de spoelbak op uw toilet</li><li>Vervangen van het volledige toilet</li><li>Vervangen/ vernieuwen van uw badkamermeubel</li><li>...</li></ul>",
+                        "images": ""
+                    }
+                },
+                "sub_item5": {
+                    "id": "project4",
+                    "name": "Isolatie",
+                    "content": {
+                        "body": "<p>Iedereen heeft graag een knusse woning waarbij het in de winter gezellig warm is en in de zomer lekker fris. Maar door de stijgende energieprijzen is dit vaak moeilijk. Daarom is het isoleren van uw huis de ideale oplossing. Dit kan gaan over wanden, plafonds of daken. Wij bekijken samen met u de mogelijke opties en voeren de klus uit zoals het hoort.</p>",
+                        "images": ""
+                    }
+                },
+                "sub_item6": {
+                    "id": "project5",
+                    "name":"Valse wanden en plafonds",
+                    "content": {
+                        "body": "<p>Voor de plaatsing van valse wanden en plafonds maken wij gebruik van twee verschillende materialen. U kunt opteren voor gyproc of design plafondpanelen. De mogelijkheden zijn eindeloos, wenst u spotjes of meerdere armaturen, alles kan voorzien worden.</p><p>Een ruimte in twee delen aan de hand van een valse wand is heel praktisch. Dit werkt snel en u kunt er extra isolatie in steken. Wat zeker en vast een meerwaarde is.</p><p>Wenst u uw zolder te laten uitwerken, hetzij als zolder of als extra kamers, ook hiervoor kan u bij ons terecht. Wij isoleren, plaatsen het dampscherm en werken de schuine zijden mooi af naar wens. Ook kunnen extra wanden geplaatst worden indien u uw zolder als extra kamer wenst te gebruiken. Alle voorzieningen zijn mogelijk.</p>",
+                        "images": ""
+                    }
+                },
+                "sub_item7": {
+                    "id": "project6",
+                    "name": "Herstellingen",
+                    "content": {
+                        "body": "<p>Wenst u graag een herstelling te laten uitvoeren, contacteer ons dan gerust. Dit kan gaan om kleine als grote herstellingen. Niets is ons te veel.<p><p><p>Enkele mogelijkheden in ons aanbod zijn:</p><ul><li>Een kapotte tegel in uw vloer of badkamer</li><li>Een weggeschoven dakpan</li><li>Een voeg uit uw terras of uit uw gevel</li><li>Een gesprongen lamp of kapot inbouwspotje in uw plafond</li><li>Een loshangend stopcontact</li></ul><p>Staat uw herstelling niet in deze lijst? Geen nood, waarschijnlijk voeren wij uw herstelling ook uit.</p>",
+                        "images": ""
+                    }
+                },
+                "sub_item8": {
+                    "id": "project7",
+                    "name": "Schilderwerken",
+                    "content": {
+                        "body": "<p>Wenst u graag uw slaapkamer, living of inkomhal te laten schilderen? U kiest     de kleur en wij gaan aan de slag. Op voorhand wordt alles opgemeten.</p><p>U hoeft zich geen zorgen te maken en enkel te genieten van een perfect resultaat.</p>",
+                        "images": ""
+                    }
+                },
+                "sub_item9": {
+                    "id": "project8",
+                    "name": "Totaalpakketten",
+                    "content": {
+                        "body": "<p>Indien u beschikt over appartementen, gebouwen of studio´s die u verder wenst te verhuren of te verkopen maar waarvoor er nog enkele zaken op orde gebracht moeten worden, kunt u ons hiervoor contacteren. Het enige wat wij nodig hebben is een to do lijst van de taken en wij regelen alles. Zo hoeft u niet voor elk werk een aparte aannemer te bellen.</p>",
+                        "images": ""
+                    }
+                },
+                "sub_item10": {
+                    "id": "project9",
+                    "name": "Tuinhuizen",
+                    "content": {
+                        "body": "<p>Zowel dak als volledig nieuw.</p><p>Heeft uw tuinhuis nog een goed dragende structuur maar heeft u toch enkele lekken? Wij vervangen het dak van uw tuinhuis.<p>Ook volledige nieuwe tuinhuizen zijn mogelijk.</p><p>Wenst u verlichting en stopcontacten in uw tuinhuis, ook hiervoor kan u beroep op ons doen.</p>",
+                        "images": ""
+                    }
+                },
+                "sub_item11": {
+                    "id": "project10",
+                    "name": "Hulp bij...",
+                    "content": {
+                        "body": "<p>Bent u een doe het zelver maar hebt u niet de nodige kennis of heeft u hulp nodig bij uw karwei? Wij helpen u waar nodig om uw project te doen slagen. Heeft u een paar extra handen nodig bij uw verhuis, de opzet van uw tent voor het tuinfeest, het ledigen van uw garage voor het containerpark, … </p><p>Wij kunnen helpen!</p>",
+                        "images": ""
+                    }
+                }
+            }
+        },
+        "item4": {
+            "name": "Contact",
+            "content": {
+                "body": "",
+                "images": ""
+            }
+        },
+        "item5": {
+            "name": "Gallerij",
+            "content": {
+                "body": "",
+                "images": ""
+            }
+        }
+    }
+}
