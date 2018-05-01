@@ -31,9 +31,9 @@ export class Contact extends React.Component{
                         <div className="more-info">
                           <p>
                             Heeft u nog een andere klus, alles is bespreekbaar, de mogelijkheden zijn eindeloos.
-                            <br /> Neem gerust contact op via <a href="mailto:willem.lorein@hotmail.com"><em>mail</em></a>, <em>telefoon</em> of het <em>formulier</em> hier links en stel uw vraag! 
+                            <br /> Neem gerust contact op via <a href="mailto:info@willemloreinklusjesdienst.be"><em>mail</em></a>, <em>telefoon</em> of het <em>formulier</em> op deze pagina en stel uw vraag! 
                             <br /><br /><br /><br />
-                            <em>Willem Lorein Klusjesdienst </em><br />Geraardsbergsevoetweg 17, 9820 Merelbeke <br /><br /> Tel.: 0474/24.88.15<br />E-mail: <a href="mailto:willem.lorein@hotmail.com">willem.lorein@hotmail.com</a><br />BTW: BE 0629.932.846.</p>
+                            <em>Willem Lorein Klusjesdienst </em><br />Geraardsbergsevoetweg 17, 9820 Merelbeke <br /><br /> Tel.: 0474/24.88.15<br />E-mail: <a href="mailto:info@willemloreinklusjesdienst.be">info@willemloreinklusjesdienst.be</a><br />BTW: BE 0629.932.846.</p>
                         </div>
                       </div>
                     </div>

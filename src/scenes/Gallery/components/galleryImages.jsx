@@ -24,7 +24,7 @@ export class SetImages extends React.Component {
         switch(currentCase) {
             case 'imagesProject1a':
                 currentSubFolder="1.Onderhoud_en_reinigen/Tuin/";
-                numberOfImages = 8;
+                numberOfImages = 7;
                 for (let i = 1; i <= numberOfImages; i++) {
                     imageArray.push({
                         original: basePath + currentSubFolder + i +'.jpg',
