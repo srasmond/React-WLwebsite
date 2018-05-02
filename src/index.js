@@ -13,6 +13,14 @@ if (process.env.NODE_ENV !== 'production') {
     console.log('Looks like we are in development mode!');
 }
 
+/* TODO:
+    * Remove images from projects on Mobile
+    * See Contact form
+    * Resize 'about' image
+    * Fix mobile screen resolution
+    * Fix some image overflow
+*/
+
 ReactDOM.render(
     <BrowserRouter>
         <App/>   
