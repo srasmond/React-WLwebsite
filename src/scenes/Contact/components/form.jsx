@@ -48,7 +48,7 @@ export class ContactForm extends React.Component {
       //});
       this.setState({ type: "info", message: "Sending..." });
       $.ajax({
-        url: process.env.NODE_ENV === "production" ? "./server/php/mailer.php" :"../../../server/php/mailer.php",
+        url: process.env.NODE_ENV === "production" ? "https://www.willemloreinklusjesdienst.be/php/mailer.php" :"../../../server/php/mailer.php",
         //url: "/../mailer.php",
         type: "POST",
         data: {
