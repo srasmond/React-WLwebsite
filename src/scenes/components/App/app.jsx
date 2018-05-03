@@ -37,7 +37,7 @@ export class App extends React.Component{
                 Copyright &copy; 2018 Willem Lorein Klusjesdienst 
                 | Beheer en design: <a href="https://be.linkedin.com/in/sammyrasmond" target="_blank" rel="noopener noreferrer"> Sammy Rasmond </a>
                 <br/>
-                <p className="versionUpdate">v1.1.0 - Laatste update: 01 mei 2018</p>
+                <p className="versionUpdate">v1.3.6 - Laatste update: 03 mei 2018</p>
             </footer>
             </div>
         );

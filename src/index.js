@@ -15,8 +15,6 @@ if (process.env.NODE_ENV !== 'production') {
 
 /* TODO:
     * Remove images from projects on Mobile
-    * See Contact form
-    * Resize 'about' image
     * Fix mobile screen resolution
     * Fix some image overflow
 */
