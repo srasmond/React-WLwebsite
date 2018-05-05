@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {Routes} from './routes.jsx';
-import {Menu} from '../../../components/menu.jsx';
+import {Routes} from './Routes.jsx';
+import {Menu} from '../../../components/Menu.jsx';
 import headerImage from './img/LOGOWillem_RoodWit_zonderNummer.png';
 
 export class App extends React.Component{
@@ -37,7 +37,7 @@ export class App extends React.Component{
                 Copyright &copy; 2018 Willem Lorein Klusjesdienst 
                 | Beheer en design: <a href="https://be.linkedin.com/in/sammyrasmond" target="_blank" rel="noopener noreferrer"> Sammy Rasmond </a>
                 <br/>
-                <p className="versionUpdate">v1.3.6 - Laatste update: 03 mei 2018</p>
+                <p className="versionUpdate">v1.3.7 - Laatste update: 06 mei 2018</p>
             </footer>
             </div>
         );

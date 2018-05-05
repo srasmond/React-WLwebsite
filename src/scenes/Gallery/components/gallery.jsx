@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Dropdown} from './dropdown.jsx'
-import {SetImages} from './galleryImages.jsx';
+import {Dropdown} from './Dropdown.jsx'
+import {SetImages} from './GalleryImages.jsx';
 
 import "./vendor/css/image-gallery.css";
 

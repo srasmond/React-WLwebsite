@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { ProjectDefault } from './ProjectContent/projectContent.jsx';
-import { Project1a, Project1b } from './ProjectContent/projectContent.jsx';
-import { Project2, Project3, Project4, Project5 } from './ProjectContent/projectContent.jsx';
-import { Project6, Project7, Project8, Project9, Project10 } from './ProjectContent/projectContent.jsx';
+import { ProjectDefault } from './ProjectContent/ProjectContent.jsx';
+import { Project1a, Project1b } from './ProjectContent/ProjectContent.jsx';
+import { Project2, Project3, Project4, Project5 } from './ProjectContent/ProjectContent.jsx';
+import { Project6, Project7, Project8, Project9, Project10 } from './ProjectContent/ProjectContent.jsx';
 
 class Clickable extends React.Component {
   constructor() {

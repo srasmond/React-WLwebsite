@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
-import {SetImages} from './homeImages.jsx';
+import {SetImages} from './HomeImages.jsx';
 import "./vendor/css/image-gallery.css";
 
 export class Home extends React.Component{

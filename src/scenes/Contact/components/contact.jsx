@@ -1,5 +1,5 @@
 import React from 'react';
-import {ContactForm} from './form.jsx';
+import {ContactForm} from './Form.jsx';
 
 export class Contact extends React.Component{
   render(){
