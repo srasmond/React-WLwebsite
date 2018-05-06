@@ -5,7 +5,7 @@ import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
 import './scenes/css/easy-responsive-tabs.min.css';
 import './scenes/css/tabs.css';
 import './scenes/css/style.css';
-import {App} from './scenes/components/App/app.jsx';
+import {App} from './scenes/components/App/App.jsx';
 
 import registerServiceWorker from './registerServiceWorker';
 
