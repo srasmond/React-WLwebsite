@@ -23,7 +23,6 @@
 .image-gallery-right-nav::before {
   display: inline-block;
   font-family: "Ionicons";
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -76,7 +75,6 @@
 .image-gallery-play-button,
 .image-gallery-left-nav,
 .image-gallery-right-nav {
-  appearance: none;
   background-color: transparent;
   border: 0;
   cursor: pointer;
@@ -221,7 +219,6 @@
     padding: 0;
     text-align: center; }
   .image-gallery-bullets .image-gallery-bullet {
-    appearance: none;
     background-color: transparent;
     border: 1px solid #fff;
     border-radius: 50%;

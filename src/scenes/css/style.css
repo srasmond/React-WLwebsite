@@ -39,8 +39,8 @@ header {
 }
 header img {
   /*max-height: 30%;*/
-  max-width: 100%;
-  /*padding-left: 12px;*/
+  max-width: 99%;
+  padding-left: 12px;
 }
 
 section {
@@ -155,6 +155,26 @@ a:hover{
     padding: 0;
     overflow: hidden;
  }
+ 
+ .header_menu {
+  background-color: #6f8f71;
+  margin: -5% -2% 5% -4%;
+  padding: 1% 0 1% 6%;
+  list-style: none;
+}
+.header_menu li {
+  padding: 10px;
+  display: inline;
+}
+.header_menu li a {
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 1px dashed #000000;
+}
+.header_menu li a:hover {
+  border-bottom: none;
+}
+
  .home-container {
   margin-top: 10%;
   background-color: #fff;
@@ -167,14 +187,14 @@ a:hover{
 
  .home-container .left-content .left-line {
     width: 3px;
-    height: 74px;
+    height: 125px;
     background-color: #121212;
     float: left;
     margin-right: 15px;
  }
 
  .home-container .left-content h2 {
-    font-size: 32px;
+    font-size: 30px;
     letter-spacing: 0.5px;
     color: #121212;
     text-transform: uppercase;
@@ -232,8 +252,6 @@ a:hover{
     overflow: hidden;
     width: 100%;
   }
-
-
 
 /*
 ========================================
@@ -358,7 +376,6 @@ a:hover{
   margin-right: auto;
   height:190px;
   padding-top:20px;
-
 }
 
 .moreRoomToFill img{
@@ -391,7 +408,7 @@ a:hover{
 .gallery-container {
   background-color: #fff;
   margin-top: 10%;
-  padding: 40px 30px 60px 40px; /* S.R. 2018/02/04 - Changed padding bottom (before 0px) */
+  padding: 40px 30px 250px 40px; /* S.R. 2018/02/04 - Changed padding bottom (before 0px) */
 }
 
 .gallery-item {
@@ -442,8 +459,6 @@ a:hover{
 .gallery-item:hover .hover-effect {
   opacity: 1;
 }
-
-
 
 /*
 ========================================
@@ -577,6 +592,10 @@ footer a:hover {
   color:black;
 }
 
+.header_menu {
+  display:none;
+}
+
 footer .footer_menu {
 	margin: 0 0 10px 0;
 	padding: 0px;
@@ -601,8 +620,13 @@ footer .footer_menu {
 
 .versionUpdate {
   font-size: 9px;
-  padding: 0 2px 0 2px;
+  padding: 0 2px 5px 2px;
   font-style:italic;
+}
+
+#copyRight {
+  padding: 2px 10px 2px 10px;
+  font-size: 80%;
 }
 
 /* end of footer */
@@ -629,24 +653,35 @@ footer .footer_menu {
 
 @media (max-width: 768px){
 
-.VerticalTab {
-    padding-bottom: 30px;
-}
-.projectContentText {
-  display:none;
-  padding-top:0px;
-}
-#projectDefaultText {
-  display:none;
-}
-.tabs_ver_7 {
-  width:40%;
-  border-right:0;
-}
+  .VerticalTab {
+      padding-bottom: 1%;
+  }
+
+  header img {
+    max-width: 100%;
+    padding-left: 0px;
+  }
+
+  .projectContentText {
+    display:none;
+    padding-top:0px;
+  }
+
+  #projectDefaultText {
+    display:none;
+  }
+
+  .tabs_ver_7 {
+    width:100%;
+    border-right:0;
+    margin-top: -30px;
+    margin-bottom: -30px;
+  }
+
   .responsive-logo {
-    width: 100%;
+    width: 106%;
     text-align: center;
-    margin: 5px 0px 30px 0px; /* S.R. 2018/02/04 - Change Padding-top (before 45px) */
+    margin: 0% 0 12% -4%; /* S.R. 2018/02/04 - Change Padding-top (before 45px) */
   }
 
   .responsive-logo img {
@@ -657,13 +692,14 @@ footer .footer_menu {
     margin-top: 0%;
     text-align: center;
     /* S.R. 2018/02/04 -- Added margin options */
-    margin-left: -12px;
-    margin-right:-70px;
+    margin-left: -11%;
+    margin-right:-30%;
     /*******************/
+    margin-bottom: -2%
   }
 
   .home-container .left-content {
-    padding: 40px 35px;
+    padding: 40% 35%;
   }
 
   .home-container .left-line {
@@ -678,20 +714,42 @@ footer .footer_menu {
     width: 100%;
   }
 
+  .header_menu {
+    display: block;
+  }
+  
+
+  .footer_menu li {
+    padding: 0 10px;
+  }
+
   .about-container {
     margin-top: 0%;
     /* S.R. 2018/02/04 -- Added margin options */
-    margin-left: -12px;
-    margin-right:-70px;
+    margin-left: -11%;
+    margin-right:-30%;
     /*******************/
   }
 
   .projects-container {
     margin-top: 0%;
     /* S.R. 2018/02/04 -- Added margin options */
-    margin-left: -12px;
-    margin-right:-70px;
+    margin-left: -11%;
+    margin-right:-30%;
     /*******************/
+    margin-bottom: -10px;
+  }
+
+  .gallery-container {
+    margin-top: 0%;
+    margin-left: -11%;
+    margin-right:-30%;
+    padding: 10px 20px 0 10px;
+    height: 403px;
+  }
+
+  #dropDownGallery {
+    padding:0px;
   }
 
   .project-item {
@@ -702,6 +760,10 @@ footer .footer_menu {
     width: 100%;
   }
 
+  .projectImage img{
+    display: none;
+  }
+
   .hover-content img {
     width: 40px;
   }
@@ -709,8 +771,8 @@ footer .footer_menu {
   .contact-container {
     margin-top: 0%;
     /* S.R. 2018/02/04 -- Added margin options */
-    margin-left: -12px;
-    margin-right:-70px;
+    margin-left: -11%;
+    margin-right:-30%;
     /*******************/
   }
 
@@ -720,14 +782,32 @@ footer .footer_menu {
   .more-info {
     padding: 0px 30px 30px 30px;
   }
+
+  .contact-container  {
+    margin-bottom: -4%;
+  }
+
+  #infoText {
+    margin-bottom:-20px;
+  }
+
+  #basicInformation {
+    padding-top: 1px;
+  }
 }
 
 @media (max-width: 991px){
+  header img {
+    max-width: 100%;
+    padding-left: 0px;
+  }
+
+
   .home-container {
-    margin-bottom: 60px;
+    margin-bottom: -4%;
   }
   .home-container .left-content {
-    padding: 30px;
+    padding: 15px;
     text-align: center;
   }
 
@@ -748,11 +828,19 @@ footer .footer_menu {
   }
 
   .projects-container {
-    margin-bottom: 60px;
+    margin-bottom: -10px;
+  }
+
+  .gallery-container {
+    margin-top: 0%;
+    margin-left: -11%;
+    margin-right:-30%;
+    padding: 10px 20px 0 10px;
+    height: 457px;
   }
 
   .contact-container  {
-    margin-bottom: 60px;
+    margin-bottom: -4%;
   }
 
   .contact-form {

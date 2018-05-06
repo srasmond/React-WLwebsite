@@ -14,9 +14,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 /* TODO:
-    * Remove images from projects on Mobile
-    * Fix mobile screen resolution
-    * Fix some image overflow
+    * Fixed set of projects for mobile devices
 */
 
 ReactDOM.render(

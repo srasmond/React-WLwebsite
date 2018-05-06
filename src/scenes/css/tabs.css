@@ -35,7 +35,9 @@
 }
 
 /*.VerticalTab.tabs_ver_6.resp-vtabs ul.resp-tabs-list {*/
-
+ul.resp-tabs-list {
+	padding-top:0px;
+}
 .tabFloatRight{
     float: right!important;
     width: 17.5%;
@@ -65,6 +67,7 @@
 /*VerticalTab.tabs_ver_6.resp-vtabs .resp-tabs-container {*/
 .tabFloatLeft{
 	padding: 0px;
+	padding-top: 3px;
 	background-color: transparent;
 	border: 0;
 	float: left;

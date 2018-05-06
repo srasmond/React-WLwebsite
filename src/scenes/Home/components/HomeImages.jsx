@@ -13,7 +13,8 @@ export class SetImages extends React.Component {
             useBrowserFullscreen: false,
             lazyLoad: true,
             autoPlay: true,
-            disableArrowKeys: true
+            disableArrowKeys: true,
+            slideDuration: 1150
         };
     }
 
@@ -38,6 +39,7 @@ export class SetImages extends React.Component {
                 lazyLoad={this.state.lazyLoad}
                 autoPlay={this.state.autoPlay}
                 disableArrowKeys={this.state.disableArrowKeys}
+                slideDuration={this.state.slideDuration}
             />
         );
     }
