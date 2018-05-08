@@ -39,7 +39,7 @@ export class App extends React.Component{
                 <Menu pathname={pathname} className="footer_menu" />
                 <p id="copyRight">Copyright &copy; 2018 Willem Lorein Klusjesdienst 
                 | Beheer en design: <a href="https://be.linkedin.com/in/sammyrasmond" target="_blank" rel="noopener noreferrer"> Sammy Rasmond </a></p>
-                <p className="versionUpdate">v{process.env.REACT_APP_VERSION} - Laatste update: 09 mei 2018</p>
+                <p className="versionUpdate">v{process.env.REACT_APP_VERSION} - Laatste update: {process.env.REACT_APP_UPDATETIME}</p>
             </footer>
             </div>
         );

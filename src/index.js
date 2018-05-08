@@ -28,7 +28,7 @@ if (process.env.NODE_ENV !== 'production') {
     console.log('The currently detected version is: ' + detectedVersion)
 }
 // If there is no browser version set yet, create one in the local storage
-if (detectedVersion === "" || detectedVersion === null) {
+if (detectedVersion === "" || detectedVersion === null || detectedVersion === "undefined") {
     localStorage.setItem('detectedVersion', latestVersion );
 }
 /*
