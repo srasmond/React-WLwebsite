@@ -551,12 +551,16 @@ a:hover{
 .more-info {
   padding: 60px 30px 0px 0px;
 }
-
 .more-info p em {
   font-weight: 600;
   font-style: normal;
 }
-
+#infoText {
+  margin: 5px 0 -35px 0;
+}
+#basicInformation {
+  margin-top:20px;
+}
 
 /*
 ========================================
@@ -647,9 +651,63 @@ footer .footer_menu {
 
 /*
 ========================================
+--------- COOKIE BANNER STYLE ----------
+========================================
+*/
+.button-close {
+  position: relative!important;
+  right: -5%!important;
+  top: 6%!important;
+}
+.cookie-message {
+  height:auto!important;
+  line-height: 0px!important;
+}
+
+/* end of Cookie Banner Style */
+
+/*
+========================================
+---------- SOCIAL ICONS STYLE ----------
+========================================
+*/
+ul.resp-tabs-list.tabFloatRight .socialIcon {
+  display: none;
+}
+.socialIcon {
+  display:inline-block;
+}
+.social-icon {
+  width: 30px!important;
+  height: 30px!important;
+}
+.socialMedia {
+  margin-right: 12px;
+}
+
+/* end of SOCIAL ICONS STYLE */
+
+/*
+========================================
 ---------- RESPONSIVE STYLE ------------
 ========================================
 */
+
+@media (max-width: 768px){
+  .socialIcon {
+    display:none;
+  }
+  .VerticalTab .tabs_ver_7 .resp-tabs-list2 li:hover{
+    text-decoration:none!important;
+    color: #121212!important;
+  }
+  .VerticalTab .tabs_ver_7 .resp-tabs-list2 .active {
+    text-decoration:none!important;
+  }
+  .active {
+    color: #121212!important;
+  }
+}
 
 @media (max-width: 768px){
 
@@ -666,9 +724,15 @@ footer .footer_menu {
     display:none;
     padding-top:0px;
   }
-
   #projectDefaultText {
     display:none;
+  }
+  #Project1SubElements li {
+    float:left;
+  }
+  #Project1SubElements span {
+    margin:-15px 50px 4px 0px;
+    float:left;
   }
 
   .tabs_ver_7 {
@@ -683,7 +747,6 @@ footer .footer_menu {
     text-align: center;
     margin: 0% 0 12% -4%; /* S.R. 2018/02/04 - Change Padding-top (before 45px) */
   }
-
   .responsive-logo img {
     max-width: 100%;
   }
@@ -697,19 +760,15 @@ footer .footer_menu {
     /*******************/
     margin-bottom: -2%
   }
-
   .home-container .left-content {
     padding: 40% 35%;
   }
-
   .home-container .left-line {
     display: none;
   }
-
   .home-container .right-content {
     margin-left: 0;
   }
-
   .home-container .right-content img {
     width: 100%;
   }
@@ -718,7 +777,6 @@ footer .footer_menu {
     display: block;
   }
   
-
   .footer_menu li {
     padding: 0 10px;
   }
@@ -788,11 +846,11 @@ footer .footer_menu {
   }
 
   #infoText {
-    margin-bottom:-20px;
+    margin-bottom:-40px;
   }
 
   #basicInformation {
-    padding-top: 1px;
+    padding-top: 15px;
   }
 }
 

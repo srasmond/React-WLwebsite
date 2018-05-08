@@ -1,12 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import wlData from '../wlData.json';
+import { SocialIcon } from 'react-social-icons';
 
 export class Menu extends React.Component{
   render(){
     var pathname = this.props.pathname;
     return (
+      
       <ul className={this.props.className}>
+      <div className="socialIcon">
+      <SocialIcon  
+        url="https://www.facebook.com/www.willemloreinklusjesdienst.be" 
+      />
+      </div>
+
         <Link to="/" className={pathname === '/'?"current":null}><li className="tabs-1" ><span className="tabs-text">{wlData.menu_items.item1.name}</span></li></Link>
 
         <Link to="/about" className={pathname === '/about'?"current":null}><li className="tabs-2"><span className="tabs-text">{wlData.menu_items.item2.name}</span></li></Link>

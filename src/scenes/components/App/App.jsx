@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {Routes} from './Routes.jsx';
+import {CustomCookieBanner} from './CustomCookieBanner.jsx';
 import {Menu, MobileMenu} from '../../../components/Menu.jsx';
 import headerImage from './img/LOGOWillem_RoodWit_zonderNummer.png';
 
@@ -19,7 +20,8 @@ export class App extends React.Component{
                                 <div className="responsive-logo">
                                     <img src={headerImage} alt="Website Logo Willem Lorein Klusjesdienst" />
                                 </div>
-                                </Link> 
+                                </Link>
+                                <CustomCookieBanner />
                                 <MobileMenu pathname={pathname} className="header_menu" />
                             </header>
                             <div className="VerticalTab VerticalTab_hash_scroll VerticalTab_6 tabs_ver_6 VerticalTab.tabs_ver_6.resp-vtabs" >
@@ -37,7 +39,7 @@ export class App extends React.Component{
                 <Menu pathname={pathname} className="footer_menu" />
                 <p id="copyRight">Copyright &copy; 2018 Willem Lorein Klusjesdienst 
                 | Beheer en design: <a href="https://be.linkedin.com/in/sammyrasmond" target="_blank" rel="noopener noreferrer"> Sammy Rasmond </a></p>
-                <p className="versionUpdate">v1.4.0 - Laatste update: 06 mei 2018</p>
+                <p className="versionUpdate">v1.5.0 - Laatste update: 09 mei 2018</p>
             </footer>
             </div>
         );

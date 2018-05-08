@@ -1,6 +1,6 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
-import {Home} from '../../Home/components/Index.jsx';
+import {Home} from '../../Home/components/Home.jsx';
 import {Projects} from '../../Projects/components/Projects.jsx';
 import {About} from '../../About/components/About.jsx';
 import {Contact} from '../../Contact/components/Contact.jsx';

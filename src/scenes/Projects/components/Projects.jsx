@@ -4,6 +4,7 @@ import { ProjectDefault } from './ProjectContent/ProjectContent.jsx';
 import { Project1a, Project1b } from './ProjectContent/ProjectContent.jsx';
 import { Project2, Project3, Project4, Project5 } from './ProjectContent/ProjectContent.jsx';
 import { Project6, Project7, Project8, Project9, Project10 } from './ProjectContent/ProjectContent.jsx';
+import { isMobile } from "react-device-detect";
 
 class Clickable extends React.Component {
   constructor() {
@@ -41,10 +42,12 @@ export class Projects extends React.Component {
     const element = (
       projectComponent
     );
-    ReactDOM.render(
-      element,
-      document.getElementById('projectContent')
-    );
+    if (!isMobile) {
+      ReactDOM.render(
+        element,
+        document.getElementById('projectContent')
+      );
+    }
   }
   render() {
     return (
@@ -54,7 +57,7 @@ export class Projects extends React.Component {
             <ul className="resp-tabs-list2 tabFloatLeft2">
             <Clickable id={<ProjectDefault />} itemIndex={0} isActive={ this.state.activeItem===0 } onClick={this.handleClick} listLabel="Onderhoud en reinigen" />
               {
-                this.state.isProject1
+                this.state.isProject1 || isMobile
                   ? <div id="Project1SubElements" >
                       <Clickable id={<Project1a />} itemIndex={1} isActive={ this.state.activeItem===1 } onClick={this.handleClick} listLabel="Tuin" />
                       <Clickable id={<Project1b />} itemIndex={2} isActive={ this.state.activeItem===2 } onClick={this.handleClick} listLabel="Gebouwen" />
