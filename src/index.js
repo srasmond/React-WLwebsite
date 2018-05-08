@@ -27,11 +27,18 @@ if (process.env.NODE_ENV !== 'production') {
     console.log('Welcome to version ' + process.env.REACT_APP_VERSION + ' of the ' + process.env.REACT_APP_NAME + ' package!');
     console.log('The currently detected version is: ' + detectedVersion)
 }
+localStorage.setItem('detectedVersion', latestVersion );
+
 // If there is no browser version set yet, create one in the local storage
+/*
 if (detectedVersion === "" || detectedVersion === null || detectedVersion === "undefined") {
     localStorage.setItem('detectedVersion', latestVersion );
 }
-/*
+else{
+    if (latestVersion !== detectedVersion) {
+        localStorage.setItem('detectedVersion', latestVersion );
+    }
+}
     reloadCount = reloadCount + 1;
     localStorage.setItem('reloadCount', reloadCount );
     // To prevent endless loops in case of errors, set a maximum reload count
