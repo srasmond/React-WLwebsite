@@ -15,11 +15,11 @@ const latestVersion = process.env.REACT_APP_VERSION;
 // Get the version as known by the browser (local storage)
 let detectedVersion = localStorage.getItem('detectedVersion');
 // Set a reload count
-let reloadCount = localStorage.getItem('reloadCount');
+//let reloadCount = localStorage.getItem('reloadCount');
 // If the reload count is not existing or empty, set the default value to 0
-if (reloadCount === "" || reloadCount === null) {
-    reloadCount = 0;
-}
+//if (reloadCount === "" || reloadCount === null) {
+ //   reloadCount = 0;
+//}
 
 isMobile ? console.log("This is a mobile version") : null;
 if (process.env.NODE_ENV !== 'production') {
@@ -30,6 +30,8 @@ if (process.env.NODE_ENV !== 'production') {
 // If there is no browser version set yet, create one in the local storage
 if (detectedVersion === "" || detectedVersion === null) {
     localStorage.setItem('detectedVersion', latestVersion );
+}
+/*
     reloadCount = reloadCount + 1;
     localStorage.setItem('reloadCount', reloadCount );
     // To prevent endless loops in case of errors, set a maximum reload count
@@ -53,7 +55,7 @@ else{
         console.log("There is a problem with the version compare...")
         localStorage.setItem('reloadCount', reloadCount );
     }
-}
+}*/
 
 /* TODO:
     * Change picture of bridge
