@@ -12,11 +12,10 @@ export class Routes extends React.Component{
         return(
             <Switch>
                 <Route exact path='/' component={Home} />
-                <Route path="/about" component={About} />
-                <Route path="/projects" component={Projects} />
-                <Route path="/gallery" component={Gallery} />
-                <Route path="/contact" component={Contact} />
-                <Route path="/sitemap.xml" />
+                <Route exact path="/about" component={About} />
+                <Route exact path="/projects" component={Projects} />
+                <Route exact path="/gallery" component={Gallery} />
+                <Route exact path="/contact" component={Contact} />
                 <Route path="*" component={NotFoundPage} />
             </Switch>
         );
