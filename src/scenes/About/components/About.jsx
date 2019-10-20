@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import footerImage from './img/bridge-2934151_1920.png';
+//import footerImage from './img/bridge-2934151_1920.png';
+import footerImage from './img/1.jpg';
 
 export class About extends React.Component{
     render(){

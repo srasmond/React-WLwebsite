@@ -31,7 +31,7 @@ export class Contact extends React.Component{
                     Vindt ons ook op <a href="https://www.facebook.com/www.willemloreinklusjesdienst.be" target="_blank" rel="noopener noreferrer">Facebook</a>!
                
                 <p id="basicInformation">
-                  <em>Willem Lorein Klusjesdienst </em><br />Geraardsbergsevoetweg 17, 9820 Merelbeke <br /><br /> Tel.: 0474/24.88.15<br />E-mail: <a href="mailto:info@willemloreinklusjesdienst.be">info@willemloreinklusjesdienst.be</a><br />BTW: BE 0629.932.846.
+                  <em>Willem Lorein Klusjesdienst </em><br />Sint-Annastraat 1, 9820 Bottelare <br /><br /> Tel.: 0474/24.88.15<br />E-mail: <a href="mailto:info@willemloreinklusjesdienst.be">info@willemloreinklusjesdienst.be</a><br />BTW: BE 0629.932.846.
                 </p>
               </div>
             </div>
