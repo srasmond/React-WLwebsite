@@ -11,6 +11,6 @@
     },
     "server": 
     { 
-        "baseDir": ["./public", "./src"]
+        "baseDir": ["./public_html", "./src"]
     } 
 }
