@@ -5,34 +5,34 @@
     xmlns:xhtml="http://www.w3.org/1999/xhtml" 
 >
     <url>
-        <loc>https://wl.willemloreinklusjesdienst.be</loc>
+        <loc>https://willemloreinklusjesdienst.be</loc>
         <priority>1</priority>
         <changefreq>monthly</changefreq>
-        <lastmod>2018-05-09</lastmod>
-        <xhtml:link rel="canonical" href="https://wl.willemloreinklusjesdienst.be" />
+        <lastmod>2019-10-21</lastmod>
+        <xhtml:link rel="canonical" href="https://willemloreinklusjesdienst.be" />
     </url>
     <url>
-        <loc>https://wl.willemloreinklusjesdienst.be/about</loc>
+        <loc>https://willemloreinklusjesdienst.be/about</loc>
         <priority>1</priority>
         <changefreq>yearly</changefreq>
-        <lastmod>2018-05-09</lastmod>
+        <lastmod>2019-10-21</lastmod>
     </url>
     <url>
-        <loc>https://wl.willemloreinklusjesdienst.be/projects</loc>
+        <loc>https://willemloreinklusjesdienst.be/projects</loc>
         <priority>1</priority>
         <changefreq>monthly</changefreq>
-        <lastmod>2018-05-09</lastmod>
+        <lastmod>2019-10-21</lastmod>
     </url>
     <url>
-        <loc>https://wl.willemloreinklusjesdienst.be/gallery</loc>
+        <loc>https://willemloreinklusjesdienst.be/gallery</loc>
         <priority>1</priority>
         <changefreq>monthly</changefreq>
-        <lastmod>2018-05-09</lastmod>
+        <lastmod>2019-10-21</lastmod>
     </url>
     <url>
-      <loc>https://wl.willemloreinklusjesdienst.be/contact</loc>
+      <loc>https://willemloreinklusjesdienst.be/contact</loc>
       <priority>1</priority>
       <changefreq>yearly</changefreq>
-      <lastmod>2018-05-09</lastmod>
+      <lastmod>2019-10-21</lastmod>
     </url>
 </urlset>
