@@ -9,15 +9,6 @@ export class Contact extends React.Component{
         <div className="contact-container">
           <div className="row">
             <div className="col-md-6">
-              <div className="contact-form">
-                <div className="heading">
-                  <h2>Contact formulier</h2>
-                </div>
-                <p id="userMessage"></p>
-                <ContactForm/>
-              </div>
-            </div>
-            <div className="col-md-6">
               <div className="more-info">
                 <p id="infoText">
                   Heeft u nog een andere klus, alles is bespreekbaar, de mogelijkheden zijn eindeloos.
