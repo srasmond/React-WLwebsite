@@ -8,7 +8,7 @@ export class Contact extends React.Component{
       <div className="fc-tab-5">
         <div className="contact-container">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6 contact">
               <div className="more-info">
                 <p id="infoText">
                   Heeft u nog een andere klus, alles is bespreekbaar, de mogelijkheden zijn eindeloos.
