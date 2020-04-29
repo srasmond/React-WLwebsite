@@ -1,7 +1,7 @@
 {
   "name": "website-willem-lorein",
-  "version": "1.5.8",
-  "updateTime": "21 oktober 2019",
+  "version": "1.5.9",
+  "updateTime": "29 april 2020",
   "private": true,
   "dependencies": {
     "autoprefixer": "7.1.6",

@@ -39,7 +39,7 @@ export class ContactForm extends React.Component {
         message: "Sending..."
       });
       $.ajax({
-        url: "https://www.willemloreinklusjesdienst.be/php/mailer.php",
+        url: "https://wl.willemloreinklusjesdienst.be/php/mailer.php",
         type: "POST",
         data: {
           userName: this.state.contactName,
