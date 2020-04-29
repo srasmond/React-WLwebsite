@@ -8,11 +8,11 @@ export class Contact extends React.Component{
       <div className="fc-tab-5">
         <div className="contact-container">
           <div className="row">
-            <div className="col-md-6 contact">
+            <div className="col-md-12">
               <div className="more-info">
                 <p id="infoText">
                   Heeft u nog een andere klus, alles is bespreekbaar, de mogelijkheden zijn eindeloos.
-                  <br /> Neem gerust contact op via <a href="mailto:info@willemloreinklusjesdienst.be"><em>mail</em></a>, <em>telefoon</em> of het <em>formulier</em> op deze pagina en stel uw vraag! 
+                  <br /> Neem gerust contact op via <a href="mailto:info@willemloreinklusjesdienst.be"><em>mail</em></a> of <em>telefoon</em> en stel uw vraag! 
                   <br /><br /><br /><br />
                 </p>
                 
